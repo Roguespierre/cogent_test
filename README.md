@@ -3,9 +3,9 @@
 This test is designed to check the core functionality of the e-commerce site Practicesoftwaretesting.com (Practice Software Testing).
 
 The test are divided into 9 test cases covering the following areas:
-
+<br>
 Product Filtering and Sorting
-Checking and validating product image animation
+<br>Checking and validating product image animation
 Adding and removing products to and from the shopping cart
 Checking and verifying the animation and confirmation pop up once products are added to the cart.
 Confirming presence of product details on product pages
