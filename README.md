@@ -18,4 +18,28 @@ The test are divided into 9 test cases covering the following areas:
 <p>
 <b>All tests are designed to work with Playwright via the VScode Playwright extension. </b>Support for command line operation may be possible, but has not been verified as of version 1.0.  Please check back for further updates on this in future revisions. 
 
+<p><b></b>Install dependencies:</p></b>
+<p>
+  <ul>
+   <li> Node.JS
+    <li>VScode
+    <li>VScode playwright extention
+  </ul>
+</p>
+Install Playwright browsers
+If this is your first time using Playwright:
+<pre>npx playwright install</pre>
+<br>Tests are written in TypeScript.
+
+<p><b>run tests:</b>
+<br>
+
+<pre>npx playwright test 
+
+  or
+  
+npx playwright test --headed </pre>
+
+<br>The base URL and other config values can be adjusted in <i><b>playwright.config.ts.</b><i/>
+
 <i>Pierre Sahye 4/2025
