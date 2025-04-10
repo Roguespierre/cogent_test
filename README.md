@@ -16,7 +16,7 @@ The test are divided into 9 test cases covering the following areas:
 <li>Checking Navigation bar presence and correct functionality 
 </ul> 
 <p>
-<b>All tests are designed to work with Playwright via the VScode Playwright extension. </b>Support for command line operation may be possible, but has not been verified as of version 1.0.  Please check back for further updates on this in future revisions. 
+<b>All tests are designed to work with Playwright via the VScode Playwright extension. </b>Support for command line operation is possible, but bugs may be present (test running twice, false failures).</b>  Please check back for further updates on this in future revisions. 
 
 <p><b></b>Install dependencies:</p></b>
 <p>
@@ -31,7 +31,7 @@ If this is your first time using Playwright:
 <pre>npx playwright install</pre>
 <br>Tests are written in TypeScript.
 
-<p><b>run tests:</b>
+<p><b>CLI run tests:</b>
 <br>
 
 <pre>npx playwright test 
