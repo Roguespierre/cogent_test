@@ -21,9 +21,11 @@ The test are divided into 9 test cases covering the following areas:
 <p><b></b>Install dependencies:</p></b>
 <p>
   <ul>
-   <li> Node.JS
-    <li>VScode
-    <li>VScode playwright extention
+   <li> Node.JS https://nodejs.org/en
+    <li>VScode https://code.visualstudio.com/
+    <li>VScode playwright extention https://playwright.dev/docs/getting-started-vscode
+      <li> Playwright https://playwright.dev/
+     
   </ul>
 </p>
 Install Playwright browsers
