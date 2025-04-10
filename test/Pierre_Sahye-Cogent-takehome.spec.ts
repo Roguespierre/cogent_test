@@ -22,7 +22,7 @@ test.describe('Product Filtering and Sorting', () => {
   test('Sort A to Z, Click Hammer and ForgeFlex, and filter products with slider', async ({ page }) => {
     await page.goto(BASE_URL);
     await page.locator('[data-test="sort"]').selectOption('name,desc'); 
-    await page.waitForLoadState('networkidle'); //The buttons may not actually be clicked if this is not present. 
+    await page.waitForLoadState(); //The buttons may not actually be clicked if this is not present. better than waitForTimeout()? 
     await moveSliderToRange(page);
     await page.getByLabel('Hammer').click();
     await page.getByLabel('ForgeFlex Tools').click();
@@ -35,7 +35,7 @@ test.describe('Product Filtering and Sorting', () => {
   test('Check image hover animation', async ({ page }) => {
     await page.goto(BASE_URL);
     const image = page.locator('.card-img-top').first();
-    await page.waitForLoadState('networkidle'); 
+    await page.waitForLoadState(); 
     await expect(image).toBeVisible(); 
     const initialTransform = await image.evaluate(el => getComputedStyle(el).transform);
     await image.hover();
